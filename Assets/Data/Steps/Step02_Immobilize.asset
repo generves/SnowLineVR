@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938d6914448895f44945559ec5b898b3, type: 3}
+  m_Name: Step02_Immobilize
+  m_EditorClassIdentifier: Assembly-CSharp::FirstAidStep
+  stepIndex: 2
+  stepName: "\u5236\u52A8\u4E0E\u56FA\u5B9A"
+  instruction: "\u5236\u6B62\u4F24\u8005\u5267\u70C8\u79FB\u52A8\uFF0C\u4FDD\u6301\u539F\u4F4D\uFF0C\u7528\u5939\u677F\u4E34\u65F6\u56FA\u5B9A\u819D\u5173\u8282"
+  requiredActionId: ApplySplint
+  sequential: 0
+  timeLimit: 0
+  correctFeedback: "\u5236\u52A8\u6B63\u786E\uFF0C\u907F\u514D\u4E86\u4E8C\u6B21\u635F\u4F24"
+  wrongHint: "\u672A\u53CA\u65F6\u56FA\u5B9A\u97E7\u5E26\u635F\u4F24\u8005\u4F1A\u9020\u6210\u4E8C\u6B21\u635F\u4F24\u3002\u6B63\u786E\u505A\u6CD5\uFF1A\u5236\u6B62\u5267\u70C8\u8FD0\u52A8\uFF0C\u4FDD\u6301\u539F\u4F4D\u5E76\u56FA\u5B9A\u60A3\u5904"
+  timeoutHint: 
+  isCriticalError: 1
+  painDelta: 5
+  tempDelta: -0.2
+  heartRateDelta: 20
+  score: 20

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938d6914448895f44945559ec5b898b3, type: 3}
+  m_Name: Step05_Handover
+  m_EditorClassIdentifier: Assembly-CSharp::FirstAidStep
+  stepIndex: 5
+  stepName: "\u4EA4\u63A5\u4F24\u5458"
+  instruction: "\u8BF7\u7B49\u5F85\u4F24\u5458\u8EBA\u4E0A\u62C5\u67B6\u8F66\u540E\u7FFB\u8D77\u6321\u677F"
+  requiredActionId: ReportToRescuer
+  sequential: 0
+  timeLimit: 0
+  correctFeedback: "\u4F24\u5458\u5DF2\u4E0A\u8F66"
+  wrongHint: "\u4EA4\u63A5\u9057\u6F0F\u5173\u952E\u4FE1\u606F\u4F1A\u5F71\u54CD\u540E\u7EED\u5904\u7F6E"
+  timeoutHint: 
+  isCriticalError: 0
+  painDelta: 0
+  tempDelta: 0
+  heartRateDelta: 0
+  score: 10

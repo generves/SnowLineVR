@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938d6914448895f44945559ec5b898b3, type: 3}
+  m_Name: Step01_SceneSafety
+  m_EditorClassIdentifier: Assembly-CSharp::FirstAidStep
+  stepIndex: 1
+  stepName: "\u73AF\u5883\u5B89\u5168\u8BC4\u4F30"
+  instruction: "\u89C2\u5BDF\u96EA\u9053\u4E0A\u65B9\uFF0C\u786E\u8BA4\u65E0\u6765\u8F66\u540E\u653E\u7F6E\u8B66\u793A\u6807\u5FD7"
+  requiredActionId: PlaceWarningSign
+  timeLimit: 0
+  correctFeedback: "\u73AF\u5883\u5DF2\u5B89\u5168\uFF0C\u53EF\u4EE5\u63A5\u8FD1\u4F24\u8005"
+  wrongHint: "\u672A\u786E\u8BA4\u96EA\u9053\u5B89\u5168\u5C31\u63A5\u8FD1\u4F24\u8005\uFF0C\u53EF\u80FD\u5BFC\u81F4\u4E8C\u6B21\u649E\u51FB\u3002\u6B63\u786E\u505A\u6CD5\uFF1A\u5148\u89C2\u5BDF\u4E0A\u65B9\u96EA\u9053\u5E76\u8BBE\u7F6E\u8B66\u793A"
+  timeoutHint: 
+  isCriticalError: 1
+  painDelta: 3
+  tempDelta: 0
+  heartRateDelta: 25
+  score: 15

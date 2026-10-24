@@ -1,0 +1,344 @@
+﻿========================================================
+  场景物体清单
+  场景：SampleScene
+  导出时间：2026-10-03 06:44:36
+========================================================
+
+根物体共 36 个
+
+Directional Light  ◆灯光  [Light, UniversalAdditionalLightData]  pos=(0.00, 80.00, 0.00)
+
+Global Volume  [Volume]  pos=(0.00, 0.00, 0.00)
+
+XR Device Simulator  [XRDeviceSimulator, SimulatedDeviceLifecycleManager, SimulatedHandExpressionManager]  pos=(0.00, 0.00, 0.00)
+
+XR Origin (XR Rig)  [XROrigin, InputActionManager, XRInputModalityManager, XRGazeAssistance, XRCameraMonitor]  pos=(0.00, 1.50, 0.00)
+  Camera Offset  pos=(0.00, 2.86, 0.00)
+    Main Camera  ◆相机  [Camera, TrackedPoseDriver, UniversalAdditionalCameraData]  pos=(0.46, 2.20, 1.99)
+      HUD_VitalsMonitor  [Canvas, CanvasScaler, GraphicRaycaster, VitalsMonitor]
+        HeartRateGraph
+          Baseline  [Image]
+        HeartRate  [TextMeshProUGUI]
+        Temperature  [TextMeshProUGUI]
+        Pain  [TextMeshProUGUI]
+      HUD_ReportPanel  [Canvas, CanvasScaler, GraphicRaycaster]  (未激活)
+        Background  [Image]
+        Title  [TextMeshProUGUI]
+        CloseButton  [BoxCollider, Image, Button, PokeCloseButton, XRSimpleInteractable]
+          Label  [TextMeshProUGUI]
+        ScrollArea  [ScrollRect, SimpleScroller]
+          Viewport  [RectMask2D]
+            ReportText  [TextMeshProUGUI, ContentSizeFitter]
+    Gaze Interactor  [XRGazeInteractor, GazeInputManager, TrackedPoseDriver]  (未激活)  pos=(0.00, 2.86, 0.00)
+      XR Device Simulator  [XRDeviceSimulator, SimulatedDeviceLifecycleManager, SimulatedHandExpressionManager]
+    Gaze Stabilized  [XRTransformStabilizer]  (未激活)  pos=(0.00, 2.86, 0.00)
+      Gaze Stabilized Attach
+    Left Controller  [ControllerInputActionManager, XRInteractionGroup, HapticImpulsePlayer, TrackedPoseDriver]  pos=(0.00, 2.86, 0.00)
+      Poke Interactor  [XRPokeInteractor, SimpleHapticFeedback]
+        Poke Point
+          Pinch_Pointer_LOD0  ◆蒙皮网格  [SkinnedMeshRenderer]
+        Poke Point Affordances
+          Poke  [XRInteractorAffordanceStateProvider, MaterialPropertyBlockHelper, ColorMaterialPropertyAffordanceReceiver]
+          NearFar  [XRInteractorAffordanceStateProvider, MaterialPropertyBlockHelper, ColorMaterialPropertyAffordanceReceiver]
+      Near-Far Interactor  [NearFarInteractor, InteractionAttachController, SphereInteractionCaster, CurveInteractionCaster, SimpleHapticFeedback]
+        LineVisual  [CurveVisualController]
+      Teleport Interactor  [XRRayInteractor, XRInteractorLineVisual, SimpleHapticFeedback]
+      Left Controller Visual  [ControllerAnimator]
+        UniversalController
+          Bumper  [MeshRenderer, MeshFilter]
+          Button_Home  [MeshRenderer, MeshFilter]
+          Controller_Base  [MeshRenderer, MeshFilter]
+          TouchPad  [MeshRenderer, MeshFilter]
+          Trigger  [MeshRenderer, MeshFilter]
+          XRController_Thumbstick_Buttons
+            Button_A  [MeshRenderer, MeshFilter]
+            Button_B  [MeshRenderer, MeshFilter]
+            ThumbStick  [MeshRenderer, MeshFilter]
+            ThumbStick_Base  [MeshRenderer, MeshFilter]
+    Left Controller Teleport Stabilized Origin  [XRTransformStabilizer]  pos=(0.00, 2.86, 0.00)
+      Left Controller Stabilized Attach
+    Right Controller  [ControllerInputActionManager, XRInteractionGroup, HapticImpulsePlayer, TrackedPoseDriver]  pos=(0.00, 2.86, 0.00)
+      Poke Interactor  [XRPokeInteractor, SimpleHapticFeedback]
+        Poke Point
+          Pinch_Pointer_LOD0  ◆蒙皮网格  [SkinnedMeshRenderer]
+        Poke Point Affordances
+          Poke  [XRInteractorAffordanceStateProvider, MaterialPropertyBlockHelper, ColorMaterialPropertyAffordanceReceiver]
+          NearFar  [XRInteractorAffordanceStateProvider, MaterialPropertyBlockHelper, ColorMaterialPropertyAffordanceReceiver]
+      Near-Far Interactor  [NearFarInteractor, InteractionAttachController, SphereInteractionCaster, CurveInteractionCaster, SimpleHapticFeedback]
+        LineVisual  [CurveVisualController]
+      Teleport Interactor  [XRRayInteractor, XRInteractorLineVisual, SimpleHapticFeedback]
+      Right Controller Visual  [ControllerAnimator]
+        UniversalController
+          Bumper  [MeshRenderer, MeshFilter]
+          Button_Home  [MeshRenderer, MeshFilter]
+          Controller_Base  [MeshRenderer, MeshFilter]
+          TouchPad  [MeshRenderer, MeshFilter]
+          Trigger  [MeshRenderer, MeshFilter]
+          XRController_Thumbstick_Buttons
+            Button_A  [MeshRenderer, MeshFilter]
+            Button_B  [MeshRenderer, MeshFilter]
+            ThumbStick  [MeshRenderer, MeshFilter]
+            ThumbStick_Base  [MeshRenderer, MeshFilter]
+    Right Controller Teleport Stabilized Origin  [XRTransformStabilizer]  pos=(0.00, 2.86, 0.00)
+      Right Controller Stabilized Attach
+  Locomotion  [LocomotionMediator, XRBodyTransformer]  pos=(0.00, 1.50, 0.00)
+    Turn  [SnapTurnProvider, ContinuousTurnProvider]  pos=(0.00, 1.50, 0.00)
+    Move  [DynamicMoveProvider]  pos=(0.00, 1.50, 0.00)
+    Grab Move  [GrabMoveProvider, GrabMoveProvider, TwoHandedGrabMoveProvider]  (未激活)  pos=(0.00, 1.50, 0.00)
+    Teleportation  [TeleportationProvider]  pos=(0.00, 1.50, 0.00)
+    Climb  [ClimbProvider]  pos=(0.00, 1.50, 0.00)
+      Climb Teleport  [ClimbTeleportInteractor, ClimbTeleportDestinationIndicator]
+    Gravity  [GravityProvider]  pos=(0.00, 1.50, 0.00)
+    Jump  [JumpProvider]  pos=(0.00, 1.50, 0.00)
+
+GameManager  [StepController, VitalsSimulator, TestActionSender, EventLogger, ReportGenerator, ScenarioManager]  pos=(-1.49, 0.86, -1.33)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+EventSystem  [EventSystem, XRUIInputModule, InputSystemUIInputModule]  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+GraphPoint  [Image]  (未激活)  pos=(0.00, 0.00, 0.00)
+
+Prefab_Mountain_2  pos=(-621.00, -17.10, 284.00)
+  Mountain_2_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(-723.00, -17.10, 284.00)
+  Mountain_2_LOD1  [MeshRenderer, MeshFilter]  pos=(-621.00, -17.10, 284.00)
+
+Prefab_Mountain_20  pos=(43.00, -13.10, -1033.00)
+  Mountain_20_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(43.00, -13.10, -720.00)
+  Mountain_20_LOD1  [MeshRenderer, MeshFilter]  pos=(43.00, -13.10, -1033.00)
+
+Prefab_Mountain_22  pos=(296.00, -10.20, 708.00)
+  Mountain_22_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(296.00, -10.20, 708.00)
+  Mountain_22_LOD1  [MeshRenderer, MeshFilter]  pos=(296.00, -10.20, 708.00)
+
+Prefab_Mountain_23  pos=(1987.00, 0.00, -535.00)
+  Mountain_23_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(1987.00, 0.00, -1037.00)
+  Mountain_23_LOD1  [MeshRenderer, MeshFilter]  pos=(1987.00, 0.00, -535.00)
+
+Prefab_Mountain_27  pos=(6.67, 22.40, 6.72)
+  Mountain_27_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(6.67, -4.91, 4.26)
+  Mountain_27_LOD1  [MeshRenderer, MeshFilter]  pos=(6.67, -4.91, 4.26)
+
+Prefab_Mountain_47  pos=(720.00, 0.00, -168.74)
+  Mountain_47_LOD0  [MeshRenderer, MeshFilter, MeshCollider]  pos=(720.00, -8.70, -168.74)
+  Mountain_47_LOD1  [MeshRenderer, MeshFilter]  pos=(720.00, 0.00, -168.74)
+
+=== TRAINING AREA ===  pos=(0.00, 0.00, 0.00)
+  TrainingPad  [MeshRenderer, MeshFilter, BoxCollider, TeleportationArea]  pos=(0.00, -0.50, 0.00)
+  BoundaryWalls  pos=(0.00, 0.00, 0.00)
+    Wall_North  [BoxCollider, AirWallGizmo]  pos=(0.00, 1.50, 10.25)
+    Wall_South  [BoxCollider, AirWallGizmo]  pos=(0.00, 1.50, -10.25)
+    Wall_East  [BoxCollider, AirWallGizmo]  pos=(10.25, 1.50, 0.00)
+    Wall_West  [BoxCollider, AirWallGizmo]  pos=(-10.25, 1.50, 0.00)
+  SafetyFloor  [BoxCollider]  pos=(0.00, -1.50, 0.00)
+  FarMountains  pos=(0.00, 0.00, 0.00)
+
+ScenarioContent_01_膝关节扭伤  (未激活)  pos=(0.00, 0.00, 0.00)
+
+ScenarioContent_02_意识丧失心肺复苏  (未激活)  pos=(0.00, 0.00, 0.00)
+
+ScenarioContent_03_轻度失温  (未激活)  pos=(0.00, 0.00, 0.00)
+
+ScreenStand  pos=(0.00, 0.00, 3.50)
+  EventSelectionScreen  [Canvas, CanvasScaler, GraphicRaycaster]  pos=(0.00, 1.36, 3.50)
+    Background  [Image]  pos=(0.00, 1.36, 3.50)
+    Title  [TextMeshProUGUI]  pos=(0.00, 1.87, 3.50)
+    Subtitle  [TextMeshProUGUI]  pos=(0.00, 1.80, 3.50)
+    Button_1_膝关节扭伤  [BoxCollider, Image, Button, ScenarioButton, XRSimpleInteractable]  pos=(0.00, 1.70, 3.50)
+      Title  [TextMeshProUGUI]
+      Desc  [TextMeshProUGUI]
+        TMP SubMeshUI [Alibaba PuHuiTi 2.0 - 55 Regular Material + Alibaba PuHuiTi 2.0 - 55 Regular Atlas 1]  [LayoutElement, TMP_SubMeshUI]
+    Button_2_意识丧失心肺复苏  [BoxCollider, Image, Button, ScenarioButton, XRSimpleInteractable]  pos=(0.00, 1.47, 3.50)
+      Title  [TextMeshProUGUI]
+        TMP SubMeshUI [Alibaba PuHuiTi 2.0 - 55 Regular Material + Alibaba PuHuiTi 2.0 - 55 Regular Atlas 1]  [LayoutElement, TMP_SubMeshUI]
+      Desc  [TextMeshProUGUI]
+    Button_3_轻度失温  [BoxCollider, Image, Button, ScenarioButton, XRSimpleInteractable]  pos=(0.00, 1.24, 3.50)
+      Title  [TextMeshProUGUI]
+      Desc  [TextMeshProUGUI]
+  Screen_Pole  pos=(0.00, 0.00, 3.50)
+    Pole  [MeshRenderer, MeshFilter]  pos=(-0.72, 0.39, 3.50)
+    Pole  [MeshRenderer, MeshFilter]  pos=(0.72, 0.39, 3.50)
+
+ScenarioContent_01_膝关节扭伤  (未激活)  pos=(0.00, 0.00, 0.00)
+
+ScenarioContent_02_意识丧失心肺复苏  (未激活)  pos=(0.00, 0.00, 0.00)
+
+ScenarioContent_03_轻度失温  (未激活)  pos=(0.00, 0.00, 0.00)
+
+tripo_convert_9f5bc40b-4e27-4a23-8c59-1c2bfba29c28  [MeshRenderer, MeshFilter]  pos=(3.05, 0.00, 8.19)
+
+tripo_convert_b4c40bc9-8770-4318-905c-4234eb685a78  [MeshRenderer, MeshFilter]  pos=(3.05, 0.00, 7.21)
+
+tripo_convert_31308e2b-32da-42b0-8bad-07f6e549686e  [MeshRenderer, MeshFilter]  pos=(3.05, 0.00, 7.21)
+
+tripo_convert_1027d2bc-e4b0-4c8d-a79a-b2365d82299f  [MeshRenderer, MeshFilter]  pos=(3.53, 0.00, 7.21)
+
+tripo_convert_57c1c367-9a55-48dd-9496-5bf6d1dcbce0  [MeshRenderer, MeshFilter]  pos=(2.66, 0.65, 5.96)
+
+tripo_convert_92e152a1-30c0-4b41-b52b-d8b323f003e8  [MeshRenderer, MeshFilter]  pos=(2.66, 0.65, 6.16)
+
+tripo_convert_51954ba3-b3d5-4e8d-b2d4-e4fee4cb243a  [MeshRenderer, MeshFilter]  pos=(2.66, 0.65, 5.94)
+
+手机  [MeshRenderer, MeshFilter, BoxCollider, XRGrabInteractable]  pos=(2.50, 0.04, 3.00)
+
+character  ◆动画  [Animator, AnimationTester]  pos=(3.41, 0.00, 0.00)
+  CharacterRoot  pos=(3.41, 0.00, 0.00)
+    tripo_rigging_64ab08ce-22b3-4dd6-853d-318ddd637340  pos=(3.41, 0.00, 0.00)
+  mixamorig:Hips  ★骨骼  [Animator]  pos=(3.61, 0.93, 0.00)
+    mixamorig:LeftUpLeg  ★骨骼  [CapsuleCollider, XRSimpleInteractable, PatientBodyPart]  pos=(3.52, 0.88, 0.00)
+      mixamorig:LeftLeg  ★骨骼
+        mixamorig:LeftFoot  ★骨骼
+          mixamorig:LeftToeBase  ★骨骼
+            mixamorig:LeftToe_End  ★骨骼
+    mixamorig:RightUpLeg  ★骨骼  pos=(3.70, 0.88, 0.00)
+      mixamorig:RightLeg  ★骨骼
+        mixamorig:RightFoot  ★骨骼
+          mixamorig:RightToeBase  ★骨骼
+            mixamorig:RightToe_End  ★骨骼
+    mixamorig:Spine  ★骨骼  pos=(3.61, 1.02, -0.01)
+      mixamorig:Spine1  ★骨骼
+        mixamorig:Spine2  ★骨骼
+          mixamorig:LeftShoulder  ★骨骼
+            mixamorig:LeftArm  ★骨骼
+              mixamorig:LeftForeArm  ★骨骼
+                mixamorig:LeftHand  ★骨骼
+                  mixamorig:LeftHandIndex1  ★骨骼
+                    mixamorig:LeftHandIndex2  ★骨骼
+                      mixamorig:LeftHandIndex3  ★骨骼
+                        mixamorig:LeftHandIndex4  ★骨骼
+                  mixamorig:LeftHandMiddle1  ★骨骼
+                    mixamorig:LeftHandMiddle2  ★骨骼
+                      mixamorig:LeftHandMiddle3  ★骨骼
+                        mixamorig:LeftHandMiddle4  ★骨骼
+                  mixamorig:LeftHandPinky1  ★骨骼
+                    mixamorig:LeftHandPinky2  ★骨骼
+                      mixamorig:LeftHandPinky3  ★骨骼
+                        mixamorig:LeftHandPinky4  ★骨骼
+                  mixamorig:LeftHandRing1  ★骨骼
+                    mixamorig:LeftHandRing2  ★骨骼
+                      mixamorig:LeftHandRing3  ★骨骼
+                        mixamorig:LeftHandRing4  ★骨骼
+                  mixamorig:LeftHandThumb1  ★骨骼
+                    mixamorig:LeftHandThumb2  ★骨骼
+                      mixamorig:LeftHandThumb3  ★骨骼
+                        mixamorig:LeftHandThumb4  ★骨骼
+          mixamorig:Neck  ★骨骼
+            mixamorig:Head  ★骨骼
+              mixamorig:HeadTop_End  ★骨骼
+          mixamorig:RightShoulder  ★骨骼
+            mixamorig:RightArm  ★骨骼
+              mixamorig:RightForeArm  ★骨骼
+                mixamorig:RightHand  ★骨骼
+                  mixamorig:RightHandIndex1  ★骨骼
+                    mixamorig:RightHandIndex2  ★骨骼
+                      mixamorig:RightHandIndex3  ★骨骼
+                        mixamorig:RightHandIndex4  ★骨骼
+                  mixamorig:RightHandMiddle1  ★骨骼
+                    mixamorig:RightHandMiddle2  ★骨骼
+                      mixamorig:RightHandMiddle3  ★骨骼
+                        mixamorig:RightHandMiddle4  ★骨骼
+                  mixamorig:RightHandPinky1  ★骨骼
+                    mixamorig:RightHandPinky2  ★骨骼
+                      mixamorig:RightHandPinky3  ★骨骼
+                        mixamorig:RightHandPinky4  ★骨骼
+                  mixamorig:RightHandRing1  ★骨骼
+                    mixamorig:RightHandRing2  ★骨骼
+                      mixamorig:RightHandRing3  ★骨骼
+                        mixamorig:RightHandRing4  ★骨骼
+                  mixamorig:RightHandThumb1  ★骨骼
+                    mixamorig:RightHandThumb2  ★骨骼
+                      mixamorig:RightHandThumb3  ★骨骼
+                        mixamorig:RightHandThumb4  ★骨骼
+  tripo_node_6c67237b  ◆蒙皮网格  [SkinnedMeshRenderer]  pos=(3.41, 0.00, 0.00)
+
+========================================================
+  汇总统计
+========================================================
+  骨骼物体（Transform 名含 mixamorig）：65
+  SkinnedMeshRenderer：3
+  Animator：2
+  Collider（Box/Capsule/Sphere/Mesh）：18
+
+--------------------------------------------------------
+  mixamorig:  前缀的骨骼：65 根
+--------------------------------------------------------
+    mixamorig:Hips
+    mixamorig:LeftUpLeg
+    mixamorig:LeftLeg
+    mixamorig:LeftFoot
+    mixamorig:LeftToeBase
+    mixamorig:LeftToe_End
+    mixamorig:RightUpLeg
+    mixamorig:RightLeg
+    mixamorig:RightFoot
+    mixamorig:RightToeBase
+    mixamorig:RightToe_End
+    mixamorig:Spine
+    mixamorig:Spine1
+    mixamorig:Spine2
+    mixamorig:LeftShoulder
+    mixamorig:LeftArm
+    mixamorig:LeftForeArm
+    mixamorig:LeftHand
+    mixamorig:LeftHandIndex1
+    mixamorig:LeftHandIndex2
+    mixamorig:LeftHandIndex3
+    mixamorig:LeftHandIndex4
+    mixamorig:LeftHandMiddle1
+    mixamorig:LeftHandMiddle2
+    mixamorig:LeftHandMiddle3
+    mixamorig:LeftHandMiddle4
+    mixamorig:LeftHandPinky1
+    mixamorig:LeftHandPinky2
+    mixamorig:LeftHandPinky3
+    mixamorig:LeftHandPinky4
+    mixamorig:LeftHandRing1
+    mixamorig:LeftHandRing2
+    mixamorig:LeftHandRing3
+    mixamorig:LeftHandRing4
+    mixamorig:LeftHandThumb1
+    mixamorig:LeftHandThumb2
+    mixamorig:LeftHandThumb3
+    mixamorig:LeftHandThumb4
+    mixamorig:Neck
+    mixamorig:Head
+    mixamorig:HeadTop_End
+    mixamorig:RightShoulder
+    mixamorig:RightArm
+    mixamorig:RightForeArm
+    mixamorig:RightHand
+    mixamorig:RightHandIndex1
+    mixamorig:RightHandIndex2
+    mixamorig:RightHandIndex3
+    mixamorig:RightHandIndex4
+    mixamorig:RightHandMiddle1
+    mixamorig:RightHandMiddle2
+    mixamorig:RightHandMiddle3
+    mixamorig:RightHandMiddle4
+    mixamorig:RightHandPinky1
+    mixamorig:RightHandPinky2
+    mixamorig:RightHandPinky3
+    mixamorig:RightHandPinky4
+    mixamorig:RightHandRing1
+    mixamorig:RightHandRing2
+    mixamorig:RightHandRing3
+    mixamorig:RightHandRing4
+    mixamorig:RightHandThumb1
+    mixamorig:RightHandThumb2
+    mixamorig:RightHandThumb3
+    mixamorig:RightHandThumb4
+
+--------------------------------------------------------
+  mixamorig1: 前缀的骨骼：0 根
+--------------------------------------------------------
+

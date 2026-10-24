@@ -1,0 +1,65 @@
+# ============================================================
+#  Unity 项目 .gitignore  ——  《雪线之上》
+#  原则：只提交源码与美术资产，不提交任何可由 Unity 自动生成的内容
+# ============================================================
+
+# ---------- Unity 自动生成（必须忽略，否则仓库会膨胀到 10 GB+）----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/ProfilerCaptures/
+/_回滚备份_*/
+
+# Unity 崩溃转储
+sysinfo.txt
+crashlytics-build.properties
+
+# ---------- IDE 生成的工程文件（Unity 每次打开都会重写）----------
+.vs/
+.vsconfig
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ---------- 构建产物 ----------
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.exe
+*.dll.mdb
+/[Ee]xports/
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时/日志 ----------
+*.log
+*.tmp
+*.bak
+*.bak_*
+*~

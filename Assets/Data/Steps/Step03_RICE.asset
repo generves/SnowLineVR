@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938d6914448895f44945559ec5b898b3, type: 3}
+  m_Name: Step03_RICE
+  m_EditorClassIdentifier: Assembly-CSharp::FirstAidStep
+  stepIndex: 3
+  stepName: "RICE \u73B0\u573A\u5904\u7F6E"
+  instruction: "\u5148\u7528\u51B0\u888B\u9694\u5E03\u51B7\u6577\u60A3\u80A2\uFF0C\u518D\u7528\u7EF7\u5E26\u52A0\u538B\u5305\u624E"
+  requiredActionId: ApplyIcePack,ApplyBandage
+  sequential: 1
+  timeLimit: 0
+  correctFeedback: "\u51B0\u6577\u4E0E\u52A0\u538B\u64CD\u4F5C\u89C4\u8303\uFF0CRICE \u5DF2\u5B8C\u6210"
+  wrongHint: "\u51B0\u6577\u80FD\u6536\u7F29\u8840\u7BA1\uFF0C\u9650\u5236\u65E9\u671F\u80BF\u80C0\u548C\u51FA\u8840\uFF0C\u964D\u4F4E\u5C40\u90E8\u7EC4\u7EC7\u4EE3\u8C22\uFF0C\u51CF\u8F7B\u7EE7\u53D1\u635F\u4F24"
+  timeoutHint: 
+  isCriticalError: 0
+  painDelta: 1
+  tempDelta: 0
+  heartRateDelta: 8
+  score: 25

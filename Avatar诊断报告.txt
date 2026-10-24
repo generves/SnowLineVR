@@ -1,0 +1,179 @@
+﻿========================================================
+  Avatar 骨骼映射诊断报告
+  生成时间：2026-10-02 12:07:09
+========================================================
+
+蒙皮网格物体：tripo_node_6c67237b
+网格资源：Assets/Models/T-pose.fbx
+RootBone：mixamorig:Hips
+
+--------------------------------------------------------
+【模型实际骨骼】共 52 根
+--------------------------------------------------------
+    1. mixamorig:RightToeBase
+    2. mixamorig:RightFoot
+    3. mixamorig:RightLeg
+    4. mixamorig:RightUpLeg
+    5. mixamorig:Hips
+    6. mixamorig:LeftUpLeg
+    7. mixamorig:RightHandRing1
+    8. mixamorig:RightHandRing2
+    9. mixamorig:RightHandMiddle1
+   10. mixamorig:RightHandMiddle2
+   11. mixamorig:RightHandPinky1
+   12. mixamorig:RightHandIndex1
+   13. mixamorig:RightHand
+   14. mixamorig:RightForeArm
+   15. mixamorig:RightHandThumb1
+   16. mixamorig:RightArm
+   17. mixamorig:Spine
+   18. mixamorig:Spine1
+   19. mixamorig:Spine2
+   20. mixamorig:RightShoulder
+   21. mixamorig:Neck
+   22. mixamorig:Head
+   23. mixamorig:LeftFoot
+   24. mixamorig:LeftToeBase
+   25. mixamorig:LeftLeg
+   26. mixamorig:LeftShoulder
+   27. mixamorig:LeftArm
+   28. mixamorig:LeftForeArm
+   29. mixamorig:LeftHandThumb3
+   30. mixamorig:LeftHandThumb1
+   31. mixamorig:LeftHandThumb2
+   32. mixamorig:LeftHandIndex1
+   33. mixamorig:LeftHand
+   34. mixamorig:LeftHandMiddle1
+   35. mixamorig:LeftHandRing1
+   36. mixamorig:LeftHandPinky1
+   37. mixamorig:LeftHandRing2
+   38. mixamorig:LeftHandMiddle2
+   39. mixamorig:LeftHandMiddle3
+   40. mixamorig:LeftHandPinky2
+   41. mixamorig:LeftHandPinky3
+   42. mixamorig:RightHandThumb2
+   43. mixamorig:RightHandThumb3
+   44. mixamorig:RightHandMiddle3
+   45. mixamorig:RightHandIndex2
+   46. mixamorig:RightHandIndex3
+   47. mixamorig:RightHandPinky2
+   48. mixamorig:RightHandRing3
+   49. mixamorig:RightHandPinky3
+   50. mixamorig:LeftHandIndex2
+   51. mixamorig:LeftHandIndex3
+   52. mixamorig:LeftHandRing3
+
+--------------------------------------------------------
+【Avatar 信息】
+--------------------------------------------------------
+  Avatar 名字：T-poseAvatar
+  是否有效   ：True
+  是否 Humanoid：True
+  Animator   ：有
+
+--------------------------------------------------------
+【Avatar 映射表】共 52 条
+--------------------------------------------------------
+  Chest                → mixamorig:Spine1
+  Head                 → mixamorig:Head
+  Hips                 → mixamorig:Hips
+  Left Index Distal    → mixamorig:LeftHandIndex3
+  Left Index Intermediate → mixamorig:LeftHandIndex2
+  Left Index Proximal  → mixamorig:LeftHandIndex1
+  Left Little Distal   → mixamorig:LeftHandPinky3
+  Left Little Intermediate → mixamorig:LeftHandPinky2
+  Left Little Proximal → mixamorig:LeftHandPinky1
+  Left Middle Distal   → mixamorig:LeftHandMiddle3
+  Left Middle Intermediate → mixamorig:LeftHandMiddle2
+  Left Middle Proximal → mixamorig:LeftHandMiddle1
+  Left Ring Distal     → mixamorig:LeftHandRing3
+  Left Ring Intermediate → mixamorig:LeftHandRing2
+  Left Ring Proximal   → mixamorig:LeftHandRing1
+  Left Thumb Distal    → mixamorig:LeftHandThumb3
+  Left Thumb Intermediate → mixamorig:LeftHandThumb2
+  Left Thumb Proximal  → mixamorig:LeftHandThumb1
+  LeftFoot             → mixamorig:LeftFoot
+  LeftHand             → mixamorig:LeftHand
+  LeftLowerArm         → mixamorig:LeftForeArm
+  LeftLowerLeg         → mixamorig:LeftLeg
+  LeftShoulder         → mixamorig:LeftShoulder
+  LeftToes             → mixamorig:LeftToeBase
+  LeftUpperArm         → mixamorig:LeftArm
+  LeftUpperLeg         → mixamorig:LeftUpLeg
+  Neck                 → mixamorig:Neck
+  Right Index Distal   → mixamorig:RightHandIndex3
+  Right Index Intermediate → mixamorig:RightHandIndex2
+  Right Index Proximal → mixamorig:RightHandIndex1
+  Right Little Distal  → mixamorig:RightHandPinky3
+  Right Little Intermediate → mixamorig:RightHandPinky2
+  Right Little Proximal → mixamorig:RightHandPinky1
+  Right Middle Distal  → mixamorig:RightHandMiddle3
+  Right Middle Intermediate → mixamorig:RightHandMiddle2
+  Right Middle Proximal → mixamorig:RightHandMiddle1
+  Right Ring Distal    → mixamorig:RightHandRing3
+  Right Ring Intermediate → mixamorig:RightHandRing2
+  Right Ring Proximal  → mixamorig:RightHandRing1
+  Right Thumb Distal   → mixamorig:RightHandThumb3
+  Right Thumb Intermediate → mixamorig:RightHandThumb2
+  Right Thumb Proximal → mixamorig:RightHandThumb1
+  RightFoot            → mixamorig:RightFoot
+  RightHand            → mixamorig:RightHand
+  RightLowerArm        → mixamorig:RightForeArm
+  RightLowerLeg        → mixamorig:RightLeg
+  RightShoulder        → mixamorig:RightShoulder
+  RightToes            → mixamorig:RightToeBase
+  RightUpperArm        → mixamorig:RightArm
+  RightUpperLeg        → mixamorig:RightUpLeg
+  Spine                → mixamorig:Spine
+  UpperChest           → mixamorig:Spine2
+
+--------------------------------------------------------
+【关键人形部位检查】
+--------------------------------------------------------
+  ✅ Hips               → mixamorig:Hips
+  ✅ Spine              → mixamorig:Spine
+  ✅ Chest              → mixamorig:Spine1
+  ✅ UpperChest         → mixamorig:Spine2
+  ✅ Neck               → mixamorig:Neck
+  ✅ Head               → mixamorig:Head
+  ✅ LeftShoulder       → mixamorig:LeftShoulder
+  ✅ LeftUpperArm       → mixamorig:LeftArm
+  ✅ LeftLowerArm       → mixamorig:LeftForeArm
+  ✅ LeftHand           → mixamorig:LeftHand
+  ✅ RightShoulder      → mixamorig:RightShoulder
+  ✅ RightUpperArm      → mixamorig:RightArm
+  ✅ RightLowerArm      → mixamorig:RightForeArm
+  ✅ RightHand          → mixamorig:RightHand
+  ✅ LeftUpperLeg       → mixamorig:LeftUpLeg
+  ✅ LeftLowerLeg       → mixamorig:LeftLeg
+  ✅ LeftFoot           → mixamorig:LeftFoot
+  ✅ LeftToes           → mixamorig:LeftToeBase
+  ✅ RightUpperLeg      → mixamorig:RightUpLeg
+  ✅ RightLowerLeg      → mixamorig:RightLeg
+  ✅ RightFoot          → mixamorig:RightFoot
+  ✅ RightToes          → mixamorig:RightToeBase
+
+  已映射 22 个，未映射 0 个
+
+--------------------------------------------------------
+【实际骨骼验证（通过 Animator.GetBoneTransform）】
+--------------------------------------------------------
+  Avatar 支持的 55 个槽位中：
+    有实际骨骼：52
+    空槽位    ：3   ← 手指骨没映射是正常的
+
+--------------------------------------------------------
+【没被 Avatar 映射的骨骼】共 0 根
+--------------------------------------------------------
+  （没有，所有骨骼都映射上了）
+
+========================================================
+【结论】
+========================================================
+  ✅ 所有关键人形部位都映射上了。
+
+  如果动画看起来和 Blender 里差别很大，可能的原因：
+    1. Humanoid 重定向本身就会产生偏差（骨骼比例不同）
+    2. 模型绑定姿势与动画参考姿势不同（T-pose vs A-pose）
+    3. 手指骨未映射 → 手指保持绑定姿势不动
+    4. 模型缩放层级有问题 → 先跑「修复人物变换（精确版）」

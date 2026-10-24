@@ -1,0 +1,54 @@
+# ============================================================
+#  .gitattributes  ——  《雪线之上》
+#  1) 统一换行，避免 Windows / macOS 成员互相产生全文件 diff
+#  2) 让 Unity 的 YAML 资产在 diff 时按行显示、合并时走 UnityYAMLMerge
+# ============================================================
+
+* text=auto
+
+# ---------- C# 按 C# 语法高亮 diff ----------
+*.cs      text diff=csharp
+*.shader  text diff=csharp
+*.hlsl    text diff=csharp
+*.cginc   text diff=csharp
+
+# ---------- Unity 的 YAML 资产：按文本 diff，合并交给 UnityYAMLMerge ----------
+*.unity       text merge=unityyamlmerge eol=lf
+*.prefab      text merge=unityyamlmerge eol=lf
+*.asset       text merge=unityyamlmerge eol=lf
+*.mat         text merge=unityyamlmerge eol=lf
+*.anim        text merge=unityyamlmerge eol=lf
+*.controller  text merge=unityyamlmerge eol=lf
+*.overrideController text merge=unityyamlmerge eol=lf
+*.physicMaterial     text merge=unityyamlmerge eol=lf
+*.physicsMaterial2D  text merge=unityyamlmerge eol=lf
+
+# ---------- 二进制资产：标记为 binary，git 不去尝试文本合并 ----------
+*.fbx     binary
+*.obj     binary
+*.glb     binary
+*.gltf    binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.tga     binary
+*.tif     binary
+*.tiff    binary
+*.psd     binary
+*.exr     binary
+*.hdr     binary
+*.dds     binary
+*.wav     binary
+*.mp3     binary
+*.ogg     binary
+*.mp4     binary
+*.ttf     binary
+*.otf     binary
+*.bytes   binary
+
+# ---------- 说明 ----------
+# 上面 merge=unityyamlmerge 只声明了"用哪个合并驱动"，
+# 驱动本身要每个成员在自己机器上登记一次（见 README「团队成员上手」一节）：
+#
+#   git config merge.unityyamlmerge.name "Unity SmartMerge"
+#   git config merge.unityyamlmerge.driver "\"C:/Program Files/Unity/Hub/Editor/<版本>/Editor/Data/Tools/UnityYAMLMerge.exe\" merge -p %O %B %A %A"

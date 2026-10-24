@@ -1,0 +1,322 @@
+﻿========================================================
+  动画 vs 模型 完整层级对比（修正版）
+  2026-10-02 12:44:25
+========================================================
+
+动画：Assets/Animations/Idle正常站立待机.fbx
+模型：Assets/Models/T-pose.fbx
+
+--------------------------------------------------------
+【动画文件 完整层级】共 66 个物体
+--------------------------------------------------------
+  Idle正常站立待机
+  mixamorig1:Head
+  mixamorig1:HeadTop_End
+  mixamorig1:Hips
+  mixamorig1:LeftArm
+  mixamorig1:LeftFoot
+  mixamorig1:LeftForeArm
+  mixamorig1:LeftHand
+  mixamorig1:LeftHandIndex1
+  mixamorig1:LeftHandIndex2
+  mixamorig1:LeftHandIndex3
+  mixamorig1:LeftHandIndex4
+  mixamorig1:LeftHandMiddle1
+  mixamorig1:LeftHandMiddle2
+  mixamorig1:LeftHandMiddle3
+  mixamorig1:LeftHandMiddle4
+  mixamorig1:LeftHandPinky1
+  mixamorig1:LeftHandPinky2
+  mixamorig1:LeftHandPinky3
+  mixamorig1:LeftHandPinky4
+  mixamorig1:LeftHandRing1
+  mixamorig1:LeftHandRing2
+  mixamorig1:LeftHandRing3
+  mixamorig1:LeftHandRing4
+  mixamorig1:LeftHandThumb1
+  mixamorig1:LeftHandThumb2
+  mixamorig1:LeftHandThumb3
+  mixamorig1:LeftHandThumb4
+  mixamorig1:LeftLeg
+  mixamorig1:LeftShoulder
+  mixamorig1:LeftToe_End
+  mixamorig1:LeftToeBase
+  mixamorig1:LeftUpLeg
+  mixamorig1:Neck
+  mixamorig1:RightArm
+  mixamorig1:RightFoot
+  mixamorig1:RightForeArm
+  mixamorig1:RightHand
+  mixamorig1:RightHandIndex1
+  mixamorig1:RightHandIndex2
+  mixamorig1:RightHandIndex3
+  mixamorig1:RightHandIndex4
+  mixamorig1:RightHandMiddle1
+  mixamorig1:RightHandMiddle2
+  mixamorig1:RightHandMiddle3
+  mixamorig1:RightHandMiddle4
+  mixamorig1:RightHandPinky1
+  mixamorig1:RightHandPinky2
+  mixamorig1:RightHandPinky3
+  mixamorig1:RightHandPinky4
+  mixamorig1:RightHandRing1
+  mixamorig1:RightHandRing2
+  mixamorig1:RightHandRing3
+  mixamorig1:RightHandRing4
+  mixamorig1:RightHandThumb1
+  mixamorig1:RightHandThumb2
+  mixamorig1:RightHandThumb3
+  mixamorig1:RightHandThumb4
+  mixamorig1:RightLeg
+  mixamorig1:RightShoulder
+  mixamorig1:RightToe_End
+  mixamorig1:RightToeBase
+  mixamorig1:RightUpLeg
+  mixamorig1:Spine
+  mixamorig1:Spine1
+  mixamorig1:Spine2
+
+--------------------------------------------------------
+【模型文件 完整层级】共 69 个物体
+--------------------------------------------------------
+  CharacterRoot
+  mixamorig:Head
+  mixamorig:HeadTop_End
+  mixamorig:Hips
+  mixamorig:LeftArm
+  mixamorig:LeftFoot
+  mixamorig:LeftForeArm
+  mixamorig:LeftHand
+  mixamorig:LeftHandIndex1
+  mixamorig:LeftHandIndex2
+  mixamorig:LeftHandIndex3
+  mixamorig:LeftHandIndex4
+  mixamorig:LeftHandMiddle1
+  mixamorig:LeftHandMiddle2
+  mixamorig:LeftHandMiddle3
+  mixamorig:LeftHandMiddle4
+  mixamorig:LeftHandPinky1
+  mixamorig:LeftHandPinky2
+  mixamorig:LeftHandPinky3
+  mixamorig:LeftHandPinky4
+  mixamorig:LeftHandRing1
+  mixamorig:LeftHandRing2
+  mixamorig:LeftHandRing3
+  mixamorig:LeftHandRing4
+  mixamorig:LeftHandThumb1
+  mixamorig:LeftHandThumb2
+  mixamorig:LeftHandThumb3
+  mixamorig:LeftHandThumb4
+  mixamorig:LeftLeg
+  mixamorig:LeftShoulder
+  mixamorig:LeftToe_End
+  mixamorig:LeftToeBase
+  mixamorig:LeftUpLeg
+  mixamorig:Neck
+  mixamorig:RightArm
+  mixamorig:RightFoot
+  mixamorig:RightForeArm
+  mixamorig:RightHand
+  mixamorig:RightHandIndex1
+  mixamorig:RightHandIndex2
+  mixamorig:RightHandIndex3
+  mixamorig:RightHandIndex4
+  mixamorig:RightHandMiddle1
+  mixamorig:RightHandMiddle2
+  mixamorig:RightHandMiddle3
+  mixamorig:RightHandMiddle4
+  mixamorig:RightHandPinky1
+  mixamorig:RightHandPinky2
+  mixamorig:RightHandPinky3
+  mixamorig:RightHandPinky4
+  mixamorig:RightHandRing1
+  mixamorig:RightHandRing2
+  mixamorig:RightHandRing3
+  mixamorig:RightHandRing4
+  mixamorig:RightHandThumb1
+  mixamorig:RightHandThumb2
+  mixamorig:RightHandThumb3
+  mixamorig:RightHandThumb4
+  mixamorig:RightLeg
+  mixamorig:RightShoulder
+  mixamorig:RightToe_End
+  mixamorig:RightToeBase
+  mixamorig:RightUpLeg
+  mixamorig:Spine
+  mixamorig:Spine1
+  mixamorig:Spine2
+  T-pose
+  tripo_node_6c67237b
+  tripo_rigging_64ab08ce-22b3-4dd6-853d-318ddd637340
+
+--------------------------------------------------------
+【对比结果】
+--------------------------------------------------------
+  名字完全相同：0 个
+  只在动画里  ：66 个
+  只在模型里  ：69 个
+
+  只在动画里：
+    · Idle正常站立待机
+    · mixamorig1:Head
+    · mixamorig1:HeadTop_End
+    · mixamorig1:Hips
+    · mixamorig1:LeftArm
+    · mixamorig1:LeftFoot
+    · mixamorig1:LeftForeArm
+    · mixamorig1:LeftHand
+    · mixamorig1:LeftHandIndex1
+    · mixamorig1:LeftHandIndex2
+    · mixamorig1:LeftHandIndex3
+    · mixamorig1:LeftHandIndex4
+    · mixamorig1:LeftHandMiddle1
+    · mixamorig1:LeftHandMiddle2
+    · mixamorig1:LeftHandMiddle3
+    · mixamorig1:LeftHandMiddle4
+    · mixamorig1:LeftHandPinky1
+    · mixamorig1:LeftHandPinky2
+    · mixamorig1:LeftHandPinky3
+    · mixamorig1:LeftHandPinky4
+    · mixamorig1:LeftHandRing1
+    · mixamorig1:LeftHandRing2
+    · mixamorig1:LeftHandRing3
+    · mixamorig1:LeftHandRing4
+    · mixamorig1:LeftHandThumb1
+    · mixamorig1:LeftHandThumb2
+    · mixamorig1:LeftHandThumb3
+    · mixamorig1:LeftHandThumb4
+    · mixamorig1:LeftLeg
+    · mixamorig1:LeftShoulder
+    · mixamorig1:LeftToe_End
+    · mixamorig1:LeftToeBase
+    · mixamorig1:LeftUpLeg
+    · mixamorig1:Neck
+    · mixamorig1:RightArm
+    · mixamorig1:RightFoot
+    · mixamorig1:RightForeArm
+    · mixamorig1:RightHand
+    · mixamorig1:RightHandIndex1
+    · mixamorig1:RightHandIndex2
+    · mixamorig1:RightHandIndex3
+    · mixamorig1:RightHandIndex4
+    · mixamorig1:RightHandMiddle1
+    · mixamorig1:RightHandMiddle2
+    · mixamorig1:RightHandMiddle3
+    · mixamorig1:RightHandMiddle4
+    · mixamorig1:RightHandPinky1
+    · mixamorig1:RightHandPinky2
+    · mixamorig1:RightHandPinky3
+    · mixamorig1:RightHandPinky4
+    · mixamorig1:RightHandRing1
+    · mixamorig1:RightHandRing2
+    · mixamorig1:RightHandRing3
+    · mixamorig1:RightHandRing4
+    · mixamorig1:RightHandThumb1
+    · mixamorig1:RightHandThumb2
+    · mixamorig1:RightHandThumb3
+    · mixamorig1:RightHandThumb4
+    · mixamorig1:RightLeg
+    · mixamorig1:RightShoulder
+    · mixamorig1:RightToe_End
+    · mixamorig1:RightToeBase
+    · mixamorig1:RightUpLeg
+    · mixamorig1:Spine
+    · mixamorig1:Spine1
+    · mixamorig1:Spine2
+
+  只在模型里：
+    · CharacterRoot
+    · mixamorig:Head
+    · mixamorig:HeadTop_End
+    · mixamorig:Hips
+    · mixamorig:LeftArm
+    · mixamorig:LeftFoot
+    · mixamorig:LeftForeArm
+    · mixamorig:LeftHand
+    · mixamorig:LeftHandIndex1
+    · mixamorig:LeftHandIndex2
+    · mixamorig:LeftHandIndex3
+    · mixamorig:LeftHandIndex4
+    · mixamorig:LeftHandMiddle1
+    · mixamorig:LeftHandMiddle2
+    · mixamorig:LeftHandMiddle3
+    · mixamorig:LeftHandMiddle4
+    · mixamorig:LeftHandPinky1
+    · mixamorig:LeftHandPinky2
+    · mixamorig:LeftHandPinky3
+    · mixamorig:LeftHandPinky4
+    · mixamorig:LeftHandRing1
+    · mixamorig:LeftHandRing2
+    · mixamorig:LeftHandRing3
+    · mixamorig:LeftHandRing4
+    · mixamorig:LeftHandThumb1
+    · mixamorig:LeftHandThumb2
+    · mixamorig:LeftHandThumb3
+    · mixamorig:LeftHandThumb4
+    · mixamorig:LeftLeg
+    · mixamorig:LeftShoulder
+    · mixamorig:LeftToe_End
+    · mixamorig:LeftToeBase
+    · mixamorig:LeftUpLeg
+    · mixamorig:Neck
+    · mixamorig:RightArm
+    · mixamorig:RightFoot
+    · mixamorig:RightForeArm
+    · mixamorig:RightHand
+    · mixamorig:RightHandIndex1
+    · mixamorig:RightHandIndex2
+    · mixamorig:RightHandIndex3
+    · mixamorig:RightHandIndex4
+    · mixamorig:RightHandMiddle1
+    · mixamorig:RightHandMiddle2
+    · mixamorig:RightHandMiddle3
+    · mixamorig:RightHandMiddle4
+    · mixamorig:RightHandPinky1
+    · mixamorig:RightHandPinky2
+    · mixamorig:RightHandPinky3
+    · mixamorig:RightHandPinky4
+    · mixamorig:RightHandRing1
+    · mixamorig:RightHandRing2
+    · mixamorig:RightHandRing3
+    · mixamorig:RightHandRing4
+    · mixamorig:RightHandThumb1
+    · mixamorig:RightHandThumb2
+    · mixamorig:RightHandThumb3
+    · mixamorig:RightHandThumb4
+    · mixamorig:RightLeg
+    · mixamorig:RightShoulder
+    · mixamorig:RightToe_End
+    · mixamorig:RightToeBase
+    · mixamorig:RightUpLeg
+    · mixamorig:Spine
+    · mixamorig:Spine1
+    · mixamorig:Spine2
+    · T-pose
+    · tripo_node_6c67237b
+    · tripo_rigging_64ab08ce-22b3-4dd6-853d-318ddd637340
+
+--------------------------------------------------------
+【前缀分析】
+--------------------------------------------------------
+  动画骨骼前缀：mixamorig1:  （65 根骨骼用此外缀）
+  模型骨骼前缀：mixamorig:  （65 根骨骼用此外缀）
+
+  去掉前缀后再对比：
+    两边都有：65 个
+    只在动画里：1 个
+    只在模型里：4 个
+
+    只在动画里有的（去掉前缀后）：
+      · Idle正常站立待机
+
+    只在模型里有的（去掉前缀后）：
+      · CharacterRoot
+      · T-pose
+      · tripo_node_6c67237b
+      · tripo_rigging_64ab08ce-22b3-4dd6-853d-318ddd637340
+
+========================================================
+【结论】
+========================================================
+  ⚠️ 模型有 4 根骨骼在动画里找不到对应。
+     如果这些是主要骨骼（躯干/四肢），Humanoid 重定向也会有问题。
